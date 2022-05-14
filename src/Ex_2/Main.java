@@ -36,7 +36,8 @@ public class Main {
         System.out.println(car2.getInfo());
 
         car2.accelerate(250);
-        car2.go(300);
+        double timeToGo = car2.go(1000);
+        System.out.println("Time to go 1000 km " + timeToGo + "km/h");
         System.out.println(car2.getInfo());
     }
 }
