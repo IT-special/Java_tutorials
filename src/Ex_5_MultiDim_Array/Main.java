@@ -1,4 +1,4 @@
-package MultiDim_Array;
+package Ex_5_MultiDim_Array;
 
 public class Main {
     public static void main(String[] args){

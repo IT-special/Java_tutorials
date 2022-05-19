@@ -1,4 +1,4 @@
-package Score;
+package Ex_4_Score;
 
 
 /* Please Run this program inside Netbeans followin RUN - > Run Configurations -> Arguments section */
