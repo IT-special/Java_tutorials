@@ -49,13 +49,11 @@ public class Citizen {
         citizen1.nationality = "USA";
 
 
-
-
         //можно так вывести на экран
         System.out.println("\nNationality " + Citizen.nationality);
         System.out.println("Nationality of AliNuri " + citizen1.nationality);
         System.out.println("Nationality of Mehmet" + citizen2.nationality);
-        //можно и так вывести на экран
+        //можно и так вывести на экран (правильно использовать так)
         System.out.println("\nNationality" + Citizen.getNationality());
         System.out.println("Nationality of AliNuri " + citizen1.getNationality());
         System.out.println("Nationality of Mehmet" + citizen2.getNationality());
