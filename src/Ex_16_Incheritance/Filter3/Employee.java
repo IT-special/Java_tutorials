@@ -1,4 +1,4 @@
-package Ex_16_Incheritance;
+package Ex_16_Incheritance.Filter3;
 
 public class Employee {
     protected int no;
@@ -19,8 +19,6 @@ public class Employee {
         this.name = name;
         this.year = year;
         this.department = department;
-        //не понял для чего использовали в стиле метода
-        System.out.println("in Employee()");
     }
 
 
@@ -36,15 +34,13 @@ public class Employee {
         System.out.println("Employee is working");
     }
 
+
+    public void work(int hour){
+        System.out.println("Employee is working for " + hour);
+    }
     public double calculateSalary(){
         return year * BASE_SALARY;
     }
-
-
-
-
-
-
 
 
 
@@ -57,12 +53,4 @@ public class Employee {
         System.out.println("Department: " + department);
     }
 
-
-
-
-
-    //getters
-    public static int getBaseSalary(){
-        return BASE_SALARY;
-    }
 }

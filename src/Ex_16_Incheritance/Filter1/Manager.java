@@ -1,4 +1,4 @@
-package Ex_16_Incheritance;
+package Ex_16_Incheritance.Filter1;
 
 
 
@@ -11,7 +11,8 @@ public class Manager extends Employee{
     public static final int MANAGEMENT_PAYMENT = 5000;
 
     public Manager(int no, String name, int year, String workingDepartment, String departmentManaged){
-        super(no, name, year, workingDepartment);
+        super(no, name, year, workingDepartment); // используется точно также как this.
+        // переход произсодит от конструктора Employee
         this.departmentManaged = departmentManaged;
         System.out.println("in Manager()");
     }

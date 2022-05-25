@@ -1,4 +1,4 @@
-package Ex_16_Incheritance;
+package Ex_16_Incheritance.Filter1;
 
 public class Test {
     public static void main(String[] args) {
