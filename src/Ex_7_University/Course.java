@@ -1,6 +1,6 @@
 package Ex_7_University;
 
-import java.util.Date; // imported by own [Date time]
+import java.util.Date; // imported by own [Ex_17_Enums.Date time]
 
 public class Course {
     String code;
