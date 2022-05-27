@@ -1,5 +1,5 @@
 package Ex_19_Polymorphism;
-// 
+//
 
 public class TestPayrollOffice {
     public static void main(String[] args){
