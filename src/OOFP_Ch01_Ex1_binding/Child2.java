@@ -1,4 +1,4 @@
-package OOFP_Ex_1_binding;
+package OOFP_Ch01_Ex1_binding;
 
 public class Child2 extends Parent{
     public static int i = 25;

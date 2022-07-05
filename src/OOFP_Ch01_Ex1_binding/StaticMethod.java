@@ -1,4 +1,4 @@
-package OOFP_Ex_1_binding;
+package OOFP_Ch01_Ex1_binding;
 
 public class StaticMethod {
     public static void main(String[] args) {
